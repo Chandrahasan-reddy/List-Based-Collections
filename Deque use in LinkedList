@@ -1,0 +1,41 @@
+package collections.com;
+import java.util.LinkedList;
+public class DequeueCollections {
+	public static void main(String[] args)
+	{
+		LinkedList ll = new LinkedList();
+		ll.add(100);
+		ll.add(200);
+		ll.add(300);
+		ll.addFirst(400);
+		ll.addLast(500);
+		
+		
+		
+		System.out.println("Print all elements present in LinkedList: "+ll);
+		System.out.println("Get first element in LinkedList: "+ll.getFirst());
+		System.out.println("Get last element in LinkedList: "+ll.getLast());
+		System.out.println("After getting elements: "+ll);
+		System.out.println();
+		
+		System.out.println("Print all elements present in LinkedList: "+ll);
+		System.out.println("Remove first element in LinkedList: "+ll.removeFirst());
+		System.out.println("Remove first element in LinkedList: "+ll.removeLast());
+		System.out.println("After removing elements: "+ll);
+		System.out.println();
+		
+		System.out.println("Print all elements present in LinkedList: "+ll);
+		System.out.println("Peek first element in LinkedList: "+ll.peekFirst());
+		System.out.println("Peek last element in LinkedList: "+ll.peekLast());
+		System.out.println("After peek elements: "+ll);
+		System.out.println();
+		
+		System.out.println("Print all elements present in LinkedList: "+ll);
+		System.out.println("Poll first element in LinkedList: "+ll.pollFirst());
+		System.out.println("Poll last element in LinkedList: "+ll.pollLast());
+		System.out.println("After poll elements: "+ll);
+
+		
+	}
+
+}
