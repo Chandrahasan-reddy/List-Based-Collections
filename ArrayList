@@ -29,7 +29,7 @@ public class ArrayListCollections {
     }
 }
 
-OUTPUT OF THIS CODE
+====================OUTPUT OF THIS CODE========================
 Print all elements in al and al2: [1, 2, 90, 3, 4, TAP, 4.5, true, TAP, 10, 20, 30, 40]
 Print al2 elements in index 2 position of al1: [1, 2, 10, 20, 30, 40, 90, 3, 4, TAP, 4.5, true, TAP, 10, 20, 30, 40]
 Is al2 is present in al1: true
