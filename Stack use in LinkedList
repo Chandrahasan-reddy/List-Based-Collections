@@ -18,3 +18,9 @@ public class StackUseInLinkedList {
 	}
 
 }
+
+OUTPUT OF THIS CODE
+
+Print elements in LinkedList: [600, 400, 100, 200, 300, 500]
+Pop first element in LinkedList: 600
+After Pop: [400, 100, 200, 300, 500]
