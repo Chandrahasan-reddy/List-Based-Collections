@@ -1,0 +1,36 @@
+package collections.com;
+
+import java.util.ArrayDeque;
+
+public class ArrayDequeCollections {
+	public static void main(String[] args)
+	{
+		ArrayDeque ad = new ArrayDeque();
+		ad.add(100);
+		ad.add(true);
+		ad.add(300);
+		ad.add("Chandra");
+		ad.addFirst(200);
+		ad.addLast(900);
+		
+		
+		ad.push(400);
+		System.out.println("Printing elements in LinkedList: "+ad);
+		System.out.println("Pop the element in LinkedList: "+ad.pop());
+		System.out.println("After Pop: "+ad);
+		System.out.println();
+		
+		System.out.println("Printing elements in LinkedList: "+ad);
+		System.out.println("Remove first element in LinkedList: "+ad.removeFirst());
+		System.out.println("Remove last element in LinkedList: "+ad.removeLast());
+		System.out.println("After removing: "+ad);
+		System.out.println();
+		
+		System.out.println("Printing elements in LinkedList: "+ad);
+		System.out.println("Get first element in LinkedList: "+ad.getFirst());
+		System.out.println("Get last element in LinkedList: "+ad.getLast());
+		System.out.println("After getting elements: "+ad);
+		
+	}
+
+}
