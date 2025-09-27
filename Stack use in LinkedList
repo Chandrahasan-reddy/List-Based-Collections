@@ -1,0 +1,20 @@
+package collections.com;
+import java.util.LinkedList;
+public class StackUseInLinkedList {
+	public static void main(String[] args)
+	{
+		LinkedList ll = new LinkedList();
+		ll.add(100);
+		ll.add(200);
+		ll.add(300);
+		ll.addFirst(400);
+		ll.addLast(500);
+		ll.push(600);
+		
+		System.out.println("Print elements in LinkedList: "+ll);
+		
+		System.out.println("Pop first element in LinkedList: "+ll.pop());
+		System.out.println("After Pop: "+ll);
+	}
+
+}
