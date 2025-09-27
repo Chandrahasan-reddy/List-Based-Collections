@@ -39,3 +39,27 @@ public class QueueUseInLinkedList {
 		System.out.println("is element present in LinkedList: "+ll.offer(200));
 	}
 }
+
+OUTPUT OF THIS CODE
+Print all elements in LinkedList: [400, 100, 200, 300, 500]
+Peek first element in LinkedList: 400
+Peek last element in LinkedList: 500
+After peek: [400, 100, 200, 300, 500]
+
+Print all elements in LinkedList: [400, 100, 200, 300, 500]
+Poll first element in LinkedList: 400
+Poll last element in LinkedList: 500
+After poll: [100, 200, 300]
+
+Print all elements in LinkedList: [100, 200, 300]
+Get first element in LinkedList: 100
+Get last element in LinkedList: 300
+After Getting Elements: [100, 200, 300]
+
+Print all elements in LinkedList: [100, 200, 300]
+Remove first element in LinkedList: 100
+Remove last element in LinkedList: 300
+After Removing Elements: [200]
+
+is element present in LinkedList: true
+
