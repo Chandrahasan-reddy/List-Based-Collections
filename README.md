@@ -125,3 +125,5 @@ Queue → FIFO principle.
 Deque → Hybrid (works as Queue + Stack).
 
 ArrayDeque → Faster alternative to LinkedList for stack/queue use cases.
+
+=======ANY QUERIES PING ME IN LINKEDIN: Chandrahasan Reddy (https://www.linkedin.com/in/chandrahasan-reddy-89042327b) ==========================
