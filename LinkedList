@@ -39,3 +39,27 @@ public class LinkedListCollection {
 
 	}
 }
+
+OUTPUT OF THIS CODE
+
+Print all elements present in LinkedList: [400, 100, 200, 300, 500]
+Get first element in LinkedList: 400
+Get last element in LinkedList: 500
+
+Print all elements present in LinkedList: [400, 100, 200, 300, 500]
+Remove first element in LinkedList: 400
+Remove last element in LinkedList: 500
+After removals: [100, 200, 300]
+
+Print all elements present in LinkedList: [100, 200, 300]
+Peek first element in LinkedList: 100
+Peek last element in LinkedList: 300
+List After Peek: [100, 200, 300]
+
+Print all elements present in LinkedList: [100, 200, 300]
+Poll first element in LinkedList: 100
+Poll last element in LinkedList: 300
+After polls: [200]
+
+Is element present in Linkedlist: true
+
